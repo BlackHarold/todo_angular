@@ -1,5 +1,5 @@
-import {Priority} from "./priority";
-import {Category} from "./category";
+import {Priority} from './Priority';
+import {Category} from './Category';
 
 export class Task {
   id: number;
