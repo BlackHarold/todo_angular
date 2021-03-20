@@ -16,14 +16,12 @@ export class TestData {
     {id: 10, title: 'Автомобиль'},
   ];
 
-
   static priorities: Priority[] = [
     {id: 1, title: 'Низкий', color: '#fff371'},
     {id: 2, title: 'Средний', color: '#ff8b5e'},
     {id: 3, title: 'Высокий', color: '#fc5656'},
     {id: 4, title: 'Наивысший', color: '#ff1616'},
   ];
-
 
   static tasks: Task[] = [
     {
