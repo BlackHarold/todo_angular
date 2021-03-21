@@ -14,10 +14,15 @@ export class CategoriesComponent implements OnInit {
   constructor(private dataHandler: DataHandlerService) {
   }
 
-  // the method calls automatucaly after initialising component
+  // the method calls automatically after initialising component
   ngOnInit(): void {
     this.categories = this.dataHandler.getCategories();
     console.log('categories: ' + this.categories);
   }
 
+  // tslint:disable-next-line:typedef
+  showTasksByCategory(category: Category) {
+    console.log('clicked category: ' + category.title + ' : ' + category.id);
+    this.dataHandler.getTasksByCategory(category);
+  }
 }

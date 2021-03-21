@@ -14,7 +14,7 @@ export class DashboardComponent implements OnInit {
   constructor(private dataHandler: DataHandlerService) {
   }
 
-  // the method calls automatucaly after initialising component
+  // the method calls automatically after initialising component
   ngOnInit(): void {
     this.tasks = this.dataHandler.getTasks();
     console.log('tasks: ' + this.tasks);
