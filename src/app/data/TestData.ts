@@ -42,7 +42,7 @@ export class TestData {
     },
     {
       id: 3,
-      title: 'Куптиь жене цветы',
+      title: 'Купить жене цветы',
       completed: false,
       priority: TestData.priorities[3],
       category: TestData.categories[1],
@@ -50,7 +50,7 @@ export class TestData {
     },
     {
       id: 3,
-      title: 'Куптиь жене цветы',
+      title: 'Купить жене цветы',
       completed: false,
       priority: TestData.priorities[3],
       category: TestData.categories[1],
@@ -58,7 +58,7 @@ export class TestData {
     },
     {
       id: 3,
-      title: 'Куптиь жене цветы',
+      title: 'Купить жене цветы',
       completed: true,
       priority: TestData.priorities[3],
       category: TestData.categories[1],
@@ -66,7 +66,7 @@ export class TestData {
     },
     {
       id: 3,
-      title: 'Куптиь жене цветы',
+      title: 'Купить жене цветы',
       completed: false,
       priority: TestData.priorities[3],
       category: TestData.categories[1],
@@ -74,7 +74,7 @@ export class TestData {
     },
     {
       id: 3,
-      title: 'Куптиь жене цветы',
+      title: 'Купить жене цветы',
       completed: false,
       priority: TestData.priorities[3],
       category: TestData.categories[1],
@@ -82,7 +82,7 @@ export class TestData {
     },
     {
       id: 3,
-      title: 'Куптиь жене цветы',
+      title: 'Купить жене цветы',
       completed: false,
       priority: TestData.priorities[3],
       category: TestData.categories[1],
@@ -90,7 +90,7 @@ export class TestData {
     },
     {
       id: 3,
-      title: 'Куптиь жене цветы',
+      title: 'Купить жене цветы',
       completed: false,
       priority: TestData.priorities[3],
       category: TestData.categories[1],
@@ -98,7 +98,7 @@ export class TestData {
     },
     {
       id: 3,
-      title: 'Куптиь жене цветы',
+      title: 'Купить жене цветы',
       completed: false,
       priority: TestData.priorities[3],
       category: TestData.categories[1],
@@ -106,7 +106,7 @@ export class TestData {
     },
     {
       id: 3,
-      title: 'Куптиь жене цветы',
+      title: 'Купить жене цветы',
       completed: false,
       priority: TestData.priorities[3],
       category: TestData.categories[1],
@@ -114,7 +114,7 @@ export class TestData {
     },
     {
       id: 3,
-      title: 'Куптиь жене цветы',
+      title: 'Купить жене цветы',
       completed: false,
       priority: TestData.priorities[3],
       category: TestData.categories[1],
