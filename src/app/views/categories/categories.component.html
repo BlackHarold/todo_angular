@@ -1,11 +1,9 @@
 <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
   <div class="sidebar-wrapper">
     <ul class="nav">
-      <li class="nav-item" *ngFor="let category of categories" (click)="showTasksByCategory(category)">
-        <a class="nav-link" href="./dashboard.html">
-          <i class="material-icons">dashboard</i>
-          <p>{{category.title}}</p>
-        </a>
+      <li class="nav-link" *ngFor="let category of categories" (click)="showTasksByCategory(category)">
+        <i class="material-icons">dashboard</i>
+        <p>{{category.title}}</p>
       </li>
     </ul>
   </div>

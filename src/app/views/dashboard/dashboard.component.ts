@@ -16,8 +16,7 @@ export class DashboardComponent implements OnInit {
 
   // the method calls automatically after initialising component
   ngOnInit(): void {
-    this.tasks = this.dataHandler.getTasks();
-    console.log('tasks: ' + this.tasks);
+    this.dataHandler.tasksSubject.subscribe(value => this.tasks = value);
   }
 
 }
