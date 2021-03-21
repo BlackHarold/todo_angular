@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Task} from '../../model/Task';
+import {DataHandlerService} from '../../service/data-handler.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
-  constructor() { }
+  tasks: Task[];
 
+  constructor(private dataHandler: DataHandlerService) {
+  }
+
+  // the method calls automatucaly after initialising component
   ngOnInit(): void {
+    this.tasks = this.dataHandler.getTasks();
+    console.log('tasks: ' + this.tasks);
   }
 
 }
